@@ -1,0 +1,150 @@
+{
+  "id": "wonton-soup",
+  "title": "Wonton soup",
+  "description": "",
+  "source": {
+    "label": "",
+    "url": ""
+  },
+  "image": "",
+  "servings": "",
+  "categories": [],
+  "ingredients": [
+    {
+      "type": "item",
+      "text": "1 LB ground chicken"
+    },
+    {
+      "type": "item",
+      "text": "6-10 cups chicken broth (used bouillon)"
+    },
+    {
+      "type": "item",
+      "text": "1 pkg shiitake mushrooms"
+    },
+    {
+      "type": "item",
+      "text": "1 bok choy"
+    },
+    {
+      "type": "item",
+      "text": "1 bunch green onion"
+    },
+    {
+      "type": "item",
+      "text": "2 ish TBS minced ginger"
+    },
+    {
+      "type": "item",
+      "text": "2-4 cloves minced garlic"
+    },
+    {
+      "type": "item",
+      "text": "1 TBS sherry vinegar"
+    },
+    {
+      "type": "item",
+      "text": "1/4 tsp sesame oil"
+    },
+    {
+      "type": "item",
+      "text": "1TBS soy sauce"
+    },
+    {
+      "type": "item",
+      "text": "chili crisp oil"
+    },
+    {
+      "type": "item",
+      "text": "kombu"
+    },
+    {
+      "type": "item",
+      "text": "umami mushroom powder"
+    },
+    {
+      "type": "item",
+      "text": "sesame seeds"
+    },
+    {
+      "type": "item",
+      "text": "wonton wrappers"
+    },
+    {
+      "type": "item",
+      "text": "2 block of tofu for topping"
+    },
+    {
+      "type": "item",
+      "text": "marinated in hoisin and soy sauce (about 1-2 TBS each)"
+    },
+    {
+      "type": "item",
+      "text": "homemade wontons: recipe is 1.5x"
+    },
+    {
+      "type": "item",
+      "text": "375g / bread flour or half ap and bread flour"
+    },
+    {
+      "type": "item",
+      "text": "~200 ml / water"
+    },
+    {
+      "type": "item",
+      "text": "pinch salt"
+    }
+  ],
+  "instructions": [
+    {
+      "type": "step",
+      "text": "WONTONS\nmix ingredients\nrest/can rest in fridge up to whole day or so\nuse pasta roller to get thin enough\ncut into squares"
+    },
+    {
+      "type": "step",
+      "text": "MARINATE TOFU OVERNIGHT FIRST!"
+    },
+    {
+      "type": "step",
+      "text": "brown mushrooms"
+    },
+    {
+      "type": "step",
+      "text": "mix ground chicken, 3 finely minced/chopped green onions, soy sauce, sesame oil, sesame seeds, some chili oil, garlic, ginger, sherry vinegar, little bit of broth,shake of umami mushroom powder"
+    },
+    {
+      "type": "heading",
+      "text": "kombu stock:"
+    },
+    {
+      "type": "step",
+      "text": "3 cup of cold water, 1 sheet of kombu. sit for 10 minutes.\nheat gently to 140F, turn off heat and set for 2 minutes, then extract kombu"
+    },
+    {
+      "type": "heading",
+      "text": "stock:"
+    },
+    {
+      "type": "step",
+      "text": "browned shitake @ 4\n(kombu stock made with 3cup water)\n1 tbsp of chili crisp"
+    },
+    {
+      "type": "step",
+      "text": "add more water, add chopped whites of bok choy & rest of green onions\nsimmer for a while"
+    },
+    {
+      "type": "step",
+      "text": "add green parts of bok choy"
+    },
+    {
+      "type": "step",
+      "text": "wrap chicken mixture in wonton wrappers while broth simmers\nbring broth to boil and add wontons"
+    },
+    {
+      "type": "step",
+      "text": "Cook 3 MINUTES"
+    }
+  ],
+  "notes": [],
+  "extra": ""
+}

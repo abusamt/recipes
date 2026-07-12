@@ -1,0 +1,97 @@
+{
+  "id": "cajun-chicken",
+  "title": "Cajun chicken",
+  "description": "",
+  "source": {
+    "label": "",
+    "url": ""
+  },
+  "image": "",
+  "servings": "",
+  "categories": [],
+  "ingredients": [
+    {
+      "type": "item",
+      "text": "works for 2.5 lbs"
+    },
+    {
+      "type": "item",
+      "text": "use salt to make tender"
+    },
+    {
+      "type": "heading",
+      "text": "marinade:"
+    },
+    {
+      "type": "item",
+      "text": "1 cup buttermilk"
+    },
+    {
+      "type": "item",
+      "text": "1 teaspoon herbs de province"
+    },
+    {
+      "type": "item",
+      "text": "1Tablespoon garlic"
+    },
+    {
+      "type": "item",
+      "text": "1 teaspoon cajun (walmart brand square)"
+    },
+    {
+      "type": "heading",
+      "text": "flour mix:"
+    },
+    {
+      "type": "item",
+      "text": "1.25 cup all purpose flour"
+    },
+    {
+      "type": "item",
+      "text": "4 Tablespoons panko"
+    },
+    {
+      "type": "item",
+      "text": "4 Tablespoons corn starch"
+    },
+    {
+      "type": "item",
+      "text": "OR"
+    },
+    {
+      "type": "item",
+      "text": "1.75 cup rice flour"
+    },
+    {
+      "type": "heading",
+      "text": "flour seasoning:"
+    },
+    {
+      "type": "item",
+      "text": "1 teaspoon baking powder"
+    },
+    {
+      "type": "item",
+      "text": "1 teaspoon sugar"
+    },
+    {
+      "type": "item",
+      "text": "pinch white pepper"
+    },
+    {
+      "type": "item",
+      "text": "1/2 teaspoon onion powder"
+    },
+    {
+      "type": "item",
+      "text": "1 Tablespoon+ 1 teaspoon cajun"
+    },
+    {
+      "type": "item",
+      "text": "1/2 teaspoon parsley"
+    }
+  ],
+  "instructions": [],
+  "notes": [],
+  "extra": ""
+}

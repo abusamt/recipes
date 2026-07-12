@@ -1,0 +1,80 @@
+{
+  "id": "garlic-bread-sticks",
+  "title": "garlic bread sticks",
+  "description": "",
+  "source": {
+    "label": "",
+    "url": ""
+  },
+  "image": "",
+  "servings": "12",
+  "categories": [],
+  "ingredients": [
+    {
+      "type": "item",
+      "text": "1 Tbs instant yeast"
+    },
+    {
+      "type": "item",
+      "text": "2 Tbs sugar"
+    },
+    {
+      "type": "item",
+      "text": "1 cup 100-110F water"
+    },
+    {
+      "type": "item",
+      "text": "2&1/2-3 cups flour; Half bread flour half all-purpose-- more bread than ap"
+    },
+    {
+      "type": "item",
+      "text": "2 tsp salt +?"
+    },
+    {
+      "type": "item",
+      "text": "3 Tbs olive oil"
+    },
+    {
+      "type": "item",
+      "text": "for topping"
+    },
+    {
+      "type": "item",
+      "text": "4 Tbs melted butter"
+    },
+    {
+      "type": "item",
+      "text": "2 Tbs + parmesan"
+    },
+    {
+      "type": "item",
+      "text": "1 tsp mix herbs de Provence + Italian seasoning"
+    },
+    {
+      "type": "item",
+      "text": "2-3 cloves minced garlic"
+    },
+    {
+      "type": "item",
+      "text": "some salt"
+    }
+  ],
+  "instructions": [
+    {
+      "type": "step",
+      "text": "combine warm water, yeast, sugar, salt, + oil\nadd 2 cups flour\nonce incorporated, slowly add rest of flour\ndough pulls from side of bowl, not too wet\ntransfer dough to a lightly greased bowl\ncover with damp towel or paper towel +foil 30 mins- 1 hour+ (until doubled)(longer better)\nline baking sheet with parchment + lightly spray\npunch down dough\ndivide dough into 12 equal pieces (around 50g-60g)\n9-10 inch rope roll out\ncover with damp paper towel\nlet rise 20 minutes - 1 hour on sheet pan once rolled out\nbake 425F 10-15 minutes"
+    },
+    {
+      "type": "heading",
+      "text": "for topping:"
+    },
+    {
+      "type": "step",
+      "text": "while baking, heat butter until just browned\nremove from heat\nadd in garlic cloves, sit ~30 seconds, then strain garlic out\npour butter into cup/glass with parmesan, dry herbs/spice mixture, salt\nuse brush to immediately spread onto tops of bread sticks"
+    }
+  ],
+  "notes": [
+    "adapted from 2 separate recipes"
+  ],
+  "extra": ""
+}

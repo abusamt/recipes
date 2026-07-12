@@ -1,0 +1,37 @@
+{
+  "id": "frosting",
+  "title": "frosting",
+  "description": "",
+  "source": {
+    "label": "",
+    "url": ""
+  },
+  "image": "",
+  "servings": "",
+  "categories": [],
+  "ingredients": [
+    {
+      "type": "item",
+      "text": "375g pwdr sgr"
+    },
+    {
+      "type": "item",
+      "text": "42g cocoa powder"
+    },
+    {
+      "type": "item",
+      "text": "pinch salt"
+    },
+    {
+      "type": "item",
+      "text": "84g butter"
+    },
+    {
+      "type": "item",
+      "text": "45ml-95ml milk"
+    }
+  ],
+  "instructions": [],
+  "notes": [],
+  "extra": ""
+}

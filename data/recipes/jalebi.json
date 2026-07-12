@@ -1,0 +1,81 @@
+{
+  "id": "jalebi",
+  "title": "jalebi",
+  "description": "www.youtube.com/watch?v=pdFm9Rnz4H8",
+  "source": {
+    "label": "",
+    "url": ""
+  },
+  "image": "",
+  "servings": "",
+  "categories": [],
+  "ingredients": [
+    {
+      "type": "item",
+      "text": "INGREDIENTS:-"
+    },
+    {
+      "type": "item",
+      "text": "Flour 1 cup /150g"
+    },
+    {
+      "type": "item",
+      "text": "Cornflour 4 tbsp"
+    },
+    {
+      "type": "item",
+      "text": "Baking soda 1/4 tsp"
+    },
+    {
+      "type": "item",
+      "text": "Food colour 1/4tsp"
+    },
+    {
+      "type": "item",
+      "text": "(Yellow/Orange)"
+    },
+    {
+      "type": "item",
+      "text": "Yogurt 4 tbsp"
+    },
+    {
+      "type": "item",
+      "text": "Water 150ml"
+    },
+    {
+      "type": "item",
+      "text": "vanillin"
+    },
+    {
+      "type": "item",
+      "text": "amylase pinch"
+    },
+    {
+      "type": "item",
+      "text": "Ingredients for syrup:-"
+    },
+    {
+      "type": "item",
+      "text": "Sugar 3 cups"
+    },
+    {
+      "type": "item",
+      "text": "Water 1 & 1/2 cups"
+    },
+    {
+      "type": "item",
+      "text": "Lemon juice 2 tsp"
+    },
+    {
+      "type": "item",
+      "text": "Cardamom 6-7- not this"
+    },
+    {
+      "type": "item",
+      "text": "2 tbs honey"
+    }
+  ],
+  "instructions": [],
+  "notes": [],
+  "extra": ""
+}

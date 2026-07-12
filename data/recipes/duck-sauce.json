@@ -1,0 +1,49 @@
+{
+  "id": "duck-sauce",
+  "title": "duck sauce",
+  "description": "",
+  "source": {
+    "label": "",
+    "url": ""
+  },
+  "image": "images/duck_sauce_ml9ft.jpg",
+  "servings": "",
+  "categories": [],
+  "ingredients": [
+    {
+      "type": "item",
+      "text": "1/2 tsp soy"
+    },
+    {
+      "type": "item",
+      "text": "2 tsp sherry vinegar and some sprays"
+    },
+    {
+      "type": "item",
+      "text": "1/4 cup apricot"
+    },
+    {
+      "type": "item",
+      "text": "pinch dried garlic powder"
+    },
+    {
+      "type": "item",
+      "text": "pinch dried mustard powder"
+    },
+    {
+      "type": "item",
+      "text": "1tbsp water"
+    },
+    {
+      "type": "item",
+      "text": "1tsp hoisin"
+    },
+    {
+      "type": "item",
+      "text": "2tsp chili crisp"
+    }
+  ],
+  "instructions": [],
+  "notes": [],
+  "extra": ""
+}

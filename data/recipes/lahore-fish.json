@@ -1,0 +1,57 @@
+{
+  "id": "lahore-fish",
+  "title": "lahore fish",
+  "description": "",
+  "source": {
+    "label": "",
+    "url": ""
+  },
+  "image": "",
+  "servings": "",
+  "categories": [],
+  "ingredients": [
+    {
+      "type": "item",
+      "text": "45g tamarind"
+    },
+    {
+      "type": "item",
+      "text": "45g besan"
+    },
+    {
+      "type": "item",
+      "text": ".9 lemon"
+    },
+    {
+      "type": "item",
+      "text": "2tsp salt"
+    },
+    {
+      "type": "item",
+      "text": "1.33tsp red chili powder"
+    },
+    {
+      "type": "item",
+      "text": "1.33tsp red chili flakes"
+    },
+    {
+      "type": "item",
+      "text": "3.625tsp coriander"
+    },
+    {
+      "type": "item",
+      "text": "2.66tsp cumin"
+    },
+    {
+      "type": "item",
+      "text": ".225tsp garam masala"
+    },
+    {
+      "type": "item",
+      "text": "2lbs fish"
+    }
+  ],
+  "instructions": [],
+  "notes": [],
+  "extra": ""
+}

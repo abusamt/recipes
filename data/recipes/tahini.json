@@ -1,0 +1,37 @@
+{
+  "id": "tahini",
+  "title": "tahini",
+  "description": "",
+  "source": {
+    "label": "",
+    "url": ""
+  },
+  "image": "",
+  "servings": "",
+  "categories": [],
+  "ingredients": [
+    {
+      "type": "item",
+      "text": "130-ish g TAHINI PASTE ( this strongly depends on your brand)"
+    },
+    {
+      "type": "item",
+      "text": "8g or 1 to 1.5 TSP SALT"
+    },
+    {
+      "type": "item",
+      "text": "1/2 LEMON JUICED or 15g"
+    },
+    {
+      "type": "item",
+      "text": "60-75g water MORE than this"
+    },
+    {
+      "type": "item",
+      "text": "1/2 GARLIC CLOVE (sliced)"
+    }
+  ],
+  "instructions": [],
+  "notes": [],
+  "extra": ""
+}

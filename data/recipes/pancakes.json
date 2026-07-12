@@ -1,0 +1,62 @@
+{
+  "id": "pancakes",
+  "title": "Pancakes",
+  "description": "",
+  "source": {
+    "label": "",
+    "url": ""
+  },
+  "image": "",
+  "servings": "8-10",
+  "categories": [],
+  "ingredients": [
+    {
+      "type": "heading",
+      "text": "Ingredients:"
+    },
+    {
+      "type": "item",
+      "text": "1 1/2 cups of flour (210g)"
+    },
+    {
+      "type": "item",
+      "text": "3 tablespoons of sugar (48g)"
+    },
+    {
+      "type": "item",
+      "text": "2 teaspoons of baking powder (9g)"
+    },
+    {
+      "type": "item",
+      "text": "1 teaspoon of salt (5g)"
+    },
+    {
+      "type": "item",
+      "text": "1 teaspoon of baking soda (5g)"
+    },
+    {
+      "type": "item",
+      "text": "2 eggs (Room Temperature)"
+    },
+    {
+      "type": "item",
+      "text": "1 cup of milk/buttermilk (240ml)"
+    },
+    {
+      "type": "item",
+      "text": "2 tablespoons of melted butter (28g)"
+    },
+    {
+      "type": "item",
+      "text": "1 teaspoon of vanilla extract (5ml)"
+    }
+  ],
+  "instructions": [
+    {
+      "type": "step",
+      "text": "mix dry\nwhisk eggs, add milk (i used buttermilk), melted butter, + vanilla\nwhisk\nadd wet to dry, folding in with silicon spatula, do not overmix\nCLUMPS are good/okay do not overmix\nscoop out with icecream scoop onto preheated + buttered pan\ncook ~ 2-4 mins each side on low-med, med heat."
+    }
+  ],
+  "notes": [],
+  "extra": ""
+}

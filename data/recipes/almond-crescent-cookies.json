@@ -1,0 +1,54 @@
+{
+  "id": "almond-crescent-cookies",
+  "title": "Almond Crescent Cookies",
+  "description": "",
+  "source": {
+    "label": "",
+    "url": ""
+  },
+  "image": "",
+  "servings": "",
+  "categories": [],
+  "ingredients": [
+    {
+      "type": "item",
+      "text": "all purposes flour 2 Cups +2 tbs"
+    },
+    {
+      "type": "item",
+      "text": "Roasted Crushed almond 1 Cup"
+    },
+    {
+      "type": "item",
+      "text": "180 g butter + shortening (90g each)"
+    },
+    {
+      "type": "item",
+      "text": "powdered sugar 4 tbsp"
+    },
+    {
+      "type": "item",
+      "text": "vanilla 1 tbsp"
+    },
+    {
+      "type": "item",
+      "text": "baking powder 1tbsp"
+    },
+    {
+      "type": "item",
+      "text": "1 egg"
+    },
+    {
+      "type": "item",
+      "text": "salt"
+    }
+  ],
+  "instructions": [
+    {
+      "type": "step",
+      "text": "whisk vanillin sugar, flour, crushed almonds, baking powder, salt\nadd in butter + shortening with hands\nadd in egg with hands\nroll out and cut\nbake ~ 8-11 minutes"
+    }
+  ],
+  "notes": [],
+  "extra": ""
+}

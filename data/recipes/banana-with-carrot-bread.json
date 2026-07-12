@@ -1,0 +1,98 @@
+{
+  "id": "banana-with-carrot-bread",
+  "title": "Banana (with carrot) Bread",
+  "description": "banana bread with crushed candied walnuts, candied shredded carrot, topped with chopped pecans",
+  "source": {
+    "label": "",
+    "url": ""
+  },
+  "image": "",
+  "servings": "",
+  "categories": [],
+  "ingredients": [
+    {
+      "type": "item",
+      "text": "3 ripe bananas"
+    },
+    {
+      "type": "item",
+      "text": "2 cups all-purpose flour"
+    },
+    {
+      "type": "item",
+      "text": "1 tsp salt"
+    },
+    {
+      "type": "item",
+      "text": "1 tsp baking powder"
+    },
+    {
+      "type": "item",
+      "text": "1 tsp baking soda"
+    },
+    {
+      "type": "item",
+      "text": "2 TBS hemp hearts"
+    },
+    {
+      "type": "item",
+      "text": "2TBS wheat germ"
+    },
+    {
+      "type": "item",
+      "text": "1/2 cup soft butter"
+    },
+    {
+      "type": "item",
+      "text": "3/4 cup sugar & molasses +1/4-1/2 cup sugar for nuts"
+    },
+    {
+      "type": "item",
+      "text": "2 large eggs"
+    },
+    {
+      "type": "item",
+      "text": "1/4 tsp vanilla/some vanilla bean"
+    },
+    {
+      "type": "item",
+      "text": "1 tbsp milk/milk powder"
+    },
+    {
+      "type": "item",
+      "text": "1 cup chopped walnuts"
+    },
+    {
+      "type": "item",
+      "text": "1 cup shredded carrots"
+    },
+    {
+      "type": "item",
+      "text": "chopped pecans"
+    }
+  ],
+  "instructions": [
+    {
+      "type": "step",
+      "text": "Candied walnuts\n1 cup chopped walnuts\n2-3 TBS butter\n1/4-1/2 cup white sugar\ndash salt\nsome water\ncook low-med heat for a few minutes, lay out on parchment"
+    },
+    {
+      "type": "step",
+      "text": "Candied shredded carrots\n1-3 TBS butter\n1/4-1/2 Cup white sugar\ndash salt\nsome molasses\nsome water\n(forgot to add) dash cinnamon"
+    },
+    {
+      "type": "step",
+      "text": "Whisk flour, baking soda, baking powder, salt, hemp hearts, & wheat germ, set aside\nMash bananas, set aside\nCream soft butter with sugar using spatula\nAdd banana mash to butter mix and whisk until combined\nAdd eggs, 1 at a time\nAdd vanilla & milk\nAdd candied carrots & candied walnuts\nAdd flour, mix with spatula gently, lightly folding"
+    },
+    {
+      "type": "step",
+      "text": "Spray loaf pan(s)\nFill (used small loaf trays) 1/2-3/4 of the way\nSprinkle with chopped pecans"
+    },
+    {
+      "type": "step",
+      "text": "Bake at 350F for 15 minutes\nLower temperature to 325F for about 10 minutes or until center of bread reads 200F"
+    }
+  ],
+  "notes": [],
+  "extra": ""
+}

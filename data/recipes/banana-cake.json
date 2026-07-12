@@ -1,0 +1,90 @@
+{
+  "id": "banana-cake",
+  "title": "Banana Cake",
+  "description": "Recipe by (Betty) Lynette Meeks",
+  "source": {
+    "label": "",
+    "url": ""
+  },
+  "image": "",
+  "servings": "",
+  "categories": [],
+  "ingredients": [
+    {
+      "type": "item",
+      "text": "3/4 cup butter/shortening (half and half)"
+    },
+    {
+      "type": "item",
+      "text": "2.5 cups sugar"
+    },
+    {
+      "type": "item",
+      "text": "3 eggs"
+    },
+    {
+      "type": "item",
+      "text": "1.5 cups mashed bananas"
+    },
+    {
+      "type": "item",
+      "text": "3 cups sifted flour (half cake half all purpose)"
+    },
+    {
+      "type": "item",
+      "text": "3/4 tsp baking powder"
+    },
+    {
+      "type": "item",
+      "text": "1/3 cup buttermilk"
+    },
+    {
+      "type": "item",
+      "text": "1 tsp baking soda"
+    },
+    {
+      "type": "item",
+      "text": "1 tsp salt"
+    },
+    {
+      "type": "item",
+      "text": "1.5 tsp vanilla"
+    },
+    {
+      "type": "item",
+      "text": "For Frosting"
+    },
+    {
+      "type": "item",
+      "text": "1.5 box (cups?) (~ half a bag) (bag = 2lb or 907g) powdered sugar"
+    },
+    {
+      "type": "item",
+      "text": "3/4 cup (1.5 sticks) butter"
+    },
+    {
+      "type": "item",
+      "text": "3/4 cup mashed bananas"
+    },
+    {
+      "type": "item",
+      "text": "1.5 tsp lemon juice"
+    }
+  ],
+  "instructions": [
+    {
+      "type": "step",
+      "text": "Cream together shortening, butter, and sugar, blending well.\nAdd well beaten eggs and bananas, beat well\nSift flours then resift with dry ingredients\nAdd dry alternatively with wet mixture of buttermilk and vanilla combined"
+    },
+    {
+      "type": "step",
+      "text": "In greased, floured pans bake at 350F for about 25 minutes or until done\nRemove from pan and cool"
+    },
+    {
+      "type": "step",
+      "text": "For Frosting\nCream all ingredients together\nSpread onto cooled cake"
+    }
+  ],
+  "notes": [],
+  "extra": "I made this."
+}

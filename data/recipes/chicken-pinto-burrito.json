@@ -1,0 +1,126 @@
+{
+  "id": "chicken-pinto-burrito",
+  "title": "chicken pinto burrito",
+  "description": "",
+  "source": {
+    "label": "",
+    "url": ""
+  },
+  "image": "",
+  "servings": "",
+  "categories": [],
+  "ingredients": [
+    {
+      "type": "item",
+      "text": "2 boneless skinless chicken thighs (or breast)"
+    },
+    {
+      "type": "item",
+      "text": "1 tbsp (14 grams) mayo"
+    },
+    {
+      "type": "item",
+      "text": "Coarse kosher salt"
+    },
+    {
+      "type": "item",
+      "text": "2 cloves garlic, crushed"
+    },
+    {
+      "type": "item",
+      "text": "Lime zest"
+    },
+    {
+      "type": "item",
+      "text": "1/2 juice lime"
+    },
+    {
+      "type": "item",
+      "text": "Chile powder"
+    },
+    {
+      "type": "item",
+      "text": "Mexican oregano (optional)"
+    },
+    {
+      "type": "item",
+      "text": "10 cranks of black pepper"
+    },
+    {
+      "type": "item",
+      "text": "Pinto Beans"
+    },
+    {
+      "type": "item",
+      "text": "Drizzle of oil"
+    },
+    {
+      "type": "item",
+      "text": "Jalapeno, diced"
+    },
+    {
+      "type": "item",
+      "text": "Sprinkle of whole cumin seeds"
+    },
+    {
+      "type": "item",
+      "text": "1 can pinto beans, drained"
+    },
+    {
+      "type": "item",
+      "text": "Salt to taste"
+    },
+    {
+      "type": "item",
+      "text": "Burrito Accoutrements"
+    },
+    {
+      "type": "item",
+      "text": "Sour cream"
+    },
+    {
+      "type": "item",
+      "text": "Thinly sliced lettuce"
+    },
+    {
+      "type": "item",
+      "text": "Pickled onions"
+    },
+    {
+      "type": "item",
+      "text": "Queso fresco"
+    },
+    {
+      "type": "item",
+      "text": "Hot sauce"
+    },
+    {
+      "type": "item",
+      "text": "Cilantro"
+    }
+  ],
+  "instructions": [
+    {
+      "type": "step",
+      "text": "Set a cast-iron pan over medium heat. Mix the mayo and spices into a bowl. Add the chicken and slather the marinade on the exterior."
+    },
+    {
+      "type": "step",
+      "text": "Add the chicken to the pan and brown on each side, about 3-4 minutes per side. Cook until the internal temp is 160. Slice and enjoy."
+    },
+    {
+      "type": "step",
+      "text": "Drizzle oil into a pan over medium-low heat. Add diced jalapeno and cumin seeds and cook until just fragrant, about 1 minute. Add the pintos and cook, while stirring for another 4-5 minutes."
+    },
+    {
+      "type": "step",
+      "text": "Spread a thin layer of sour cream on the bottom which will act as a glue for the beans and provide even coverage of the sour cream instead of getting large gloops everywhere."
+    },
+    {
+      "type": "step",
+      "text": "For rolling purposes, I find it best to position the fillings in the upper third. First, hit it with a layer of the seasoned beans. Now here is where I like to add hot sauce as an acidic layer. Follow this with a generous helping of the chicken then a sprinkle of queso fresco, the diced tomatoes minced cilantro, some shredded lettuce, and you better not forget the pickled onions. Check the video for how to roll!"
+    }
+  ],
+  "notes": [],
+  "extra": ""
+}

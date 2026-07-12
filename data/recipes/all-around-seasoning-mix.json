@@ -1,0 +1,69 @@
+{
+  "id": "all-around-seasoning-mix",
+  "title": "All-Around Seasoning Mix",
+  "description": "",
+  "source": {
+    "label": "https://www.tasteofhome.com/recipes/all-around-seasoning-mix/",
+    "url": "https://www.tasteofhome.com/recipes/all-around-seasoning-mix/"
+  },
+  "image": "images/all_around_seasoning_mix_6m1hz.jpg",
+  "servings": "",
+  "categories": [],
+  "ingredients": [
+    {
+      "type": "item",
+      "text": "1/2 cup paprika"
+    },
+    {
+      "type": "item",
+      "text": "3 tablespoons onion powder"
+    },
+    {
+      "type": "item",
+      "text": "3 tablespoons garlic powder"
+    },
+    {
+      "type": "item",
+      "text": "3 tablespoons cayenne pepper"
+    },
+    {
+      "type": "item",
+      "text": "2 tablespoons white pepper"
+    },
+    {
+      "type": "item",
+      "text": "2 tablespoons pepper"
+    },
+    {
+      "type": "item",
+      "text": "4 teaspoons salt"
+    },
+    {
+      "type": "item",
+      "text": "4 teaspoons dried thyme"
+    },
+    {
+      "type": "item",
+      "text": "4 teaspoons dried oregano"
+    },
+    {
+      "type": "item",
+      "text": "4 teaspoons ground cumin"
+    },
+    {
+      "type": "item",
+      "text": "4 teaspoons chili powder"
+    }
+  ],
+  "instructions": [
+    {
+      "type": "step",
+      "text": "In a small bowl, combine all ingredients. Store in an airtight container in a cool, dry place for up to 6 months."
+    }
+  ],
+  "notes": [
+    "ALL-PURPOSE SEASONING TIPS",
+    "What is all-purpose seasoning?"
+  ],
+  "extra": ""
+}

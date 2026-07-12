@@ -1,0 +1,53 @@
+{
+  "id": "garlic-herb-butter",
+  "title": "Garlic Herb Butter",
+  "description": "",
+  "source": {
+    "label": "",
+    "url": ""
+  },
+  "image": "",
+  "servings": "",
+  "categories": [],
+  "ingredients": [
+    {
+      "type": "item",
+      "text": "2 sticks unsalted butter, room temperature"
+    },
+    {
+      "type": "item",
+      "text": "4 cloves garlic, minced"
+    },
+    {
+      "type": "item",
+      "text": "1 tablespoon chopped parsley leaves"
+    },
+    {
+      "type": "item",
+      "text": "1/2 teaspoon salt"
+    },
+    {
+      "type": "item",
+      "text": "OR"
+    },
+    {
+      "type": "item",
+      "text": "2 TBS butter"
+    },
+    {
+      "type": "item",
+      "text": "1/2 tsp garlic"
+    },
+    {
+      "type": "item",
+      "text": "large pinchful chopped fresh parsley"
+    },
+    {
+      "type": "item",
+      "text": "sm pinch of salt"
+    }
+  ],
+  "instructions": [],
+  "notes": [],
+  "extra": ""
+}

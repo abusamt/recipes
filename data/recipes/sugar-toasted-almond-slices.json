@@ -1,0 +1,38 @@
+{
+  "id": "sugar-toasted-almond-slices",
+  "title": "Sugar Toasted Almond Slices",
+  "description": "",
+  "source": {
+    "label": "",
+    "url": ""
+  },
+  "image": "",
+  "servings": "",
+  "categories": [],
+  "ingredients": [
+    {
+      "type": "item",
+      "text": "1 cups Almond slices"
+    },
+    {
+      "type": "item",
+      "text": "2 tablespoons Sugar (or more)"
+    },
+    {
+      "type": "item",
+      "text": "1 dash Salt"
+    },
+    {
+      "type": "item",
+      "text": "1 tbsp butter"
+    }
+  ],
+  "instructions": [
+    {
+      "type": "step",
+      "text": "Med heat on induction burner\nMelt butter\nAdd nuts & sugar & salt\ntoast until desired toastiness"
+    }
+  ],
+  "notes": [],
+  "extra": ""
+}

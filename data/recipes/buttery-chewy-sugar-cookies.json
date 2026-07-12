@@ -1,0 +1,58 @@
+{
+  "id": "buttery-chewy-sugar-cookies",
+  "title": "Buttery Chewy Sugar Cookies",
+  "description": "from handletheheat.com",
+  "source": {
+    "label": "",
+    "url": ""
+  },
+  "image": "",
+  "servings": "",
+  "categories": [],
+  "ingredients": [
+    {
+      "type": "item",
+      "text": "21⁄2 cups (318 grams) all-purpose flour"
+    },
+    {
+      "type": "item",
+      "text": "2 teaspoons baking powder"
+    },
+    {
+      "type": "item",
+      "text": "3/4 teaspoon fine sea salt"
+    },
+    {
+      "type": "item",
+      "text": "2 sticks (226 grams) unsalted butter, at cool room temperature"
+    },
+    {
+      "type": "item",
+      "text": "11⁄4 cups (250 grams) granulated sugar, plus 1⁄4 cup (50 grams) for rolling"
+    },
+    {
+      "type": "item",
+      "text": "1 large egg plus 1 egg yolk"
+    },
+    {
+      "type": "item",
+      "text": "1 teaspoon vanilla extract"
+    }
+  ],
+  "instructions": [
+    {
+      "type": "step",
+      "text": "Preheat the oven to 350°F(May need to be lowered halfway to 340F).\nLine baking sheets with parchment paper.\nIn a medium bowl, whisk together the flour, baking powder, and salt to combine.\nIn a large bowl, use an electric mixer fitted with a paddle attachment on medium-high speed to beat the butter and 11⁄4 cups sugar until light and fluffy, 2 to 3 minutes. Add the egg, egg yolk, and vanilla, and beat until combined. Slowly beat in the flour mixture."
+    },
+    {
+      "type": "step",
+      "text": "Place the remaining 1/4 cup sugar in a shallow dish. Using a large (3-tablespoon) (OR just small cookies) spring-loaded scoop, divide the dough into balls, then roll in sugar to coat evenly. Place the dough balls on the prepared baking sheets, spacing 2 inches apart, and flatten slightly with the bottom of a measuring cup."
+    },
+    {
+      "type": "step",
+      "text": "Bake for 10 to 12 minutes, or until the cookies set and begin to brown. Cool for 5 minutes before removing to a wire rack to cool completely. Cookies can be stored in an airtight container at room temperature for up to 3 days."
+    }
+  ],
+  "notes": [],
+  "extra": ""
+}

@@ -1,0 +1,66 @@
+{
+  "id": "italian-dressing",
+  "title": "Italian Dressing",
+  "description": "Half recipe on RIGHT",
+  "source": {
+    "label": "",
+    "url": ""
+  },
+  "image": "",
+  "servings": "",
+  "categories": [],
+  "ingredients": [
+    {
+      "type": "item",
+      "text": "1/2 cup olive oil 1/4 cup"
+    },
+    {
+      "type": "item",
+      "text": "3 Tbsp white wine vinegar 1.5 Tbs"
+    },
+    {
+      "type": "item",
+      "text": "3 Tbsp grated parmesan cheese 1.5 Tbs"
+    },
+    {
+      "type": "item",
+      "text": "1 tsp dijon mustard 1/2 tsp"
+    },
+    {
+      "type": "item",
+      "text": "1 tsp honey 1/2 tsp"
+    },
+    {
+      "type": "item",
+      "text": "2 cloves garlic, minced (1/2 tsp powder) -- 1/4 tsp"
+    },
+    {
+      "type": "item",
+      "text": "1/2 tsp dried oregano 1/4 tsp"
+    },
+    {
+      "type": "item",
+      "text": "1/2 tsp dried basil 1/4 tsp"
+    },
+    {
+      "type": "item",
+      "text": "1/2 tsp dried parsley 1/4 tsp"
+    },
+    {
+      "type": "item",
+      "text": "1/2 tsp salt 1/4 tsp"
+    },
+    {
+      "type": "item",
+      "text": "1/2 tsp black pepper 1/4 tsp"
+    }
+  ],
+  "instructions": [
+    {
+      "type": "step",
+      "text": "In a medium bowl or jar, whisk together all ingredients until smooth and creamy. Serve immediately or store in an airtight container in the fridge until ready to serve."
+    }
+  ],
+  "notes": [],
+  "extra": ""
+}

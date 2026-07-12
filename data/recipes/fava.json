@@ -1,0 +1,57 @@
+{
+  "id": "fava",
+  "title": "FAVA",
+  "description": "",
+  "source": {
+    "label": "",
+    "url": ""
+  },
+  "image": "",
+  "servings": "",
+  "categories": [],
+  "ingredients": [
+    {
+      "type": "item",
+      "text": "2 tbsp cumin"
+    },
+    {
+      "type": "item",
+      "text": "1 tbsp coriander"
+    },
+    {
+      "type": "item",
+      "text": "300g tomatoes"
+    },
+    {
+      "type": "item",
+      "text": "salt to taste"
+    },
+    {
+      "type": "item",
+      "text": "1/2 tsp white pepper"
+    },
+    {
+      "type": "item",
+      "text": "4 cups fava beans"
+    },
+    {
+      "type": "item",
+      "text": "virgin olive oil"
+    },
+    {
+      "type": "item",
+      "text": "garnish - tomatoes, parsley"
+    },
+    {
+      "type": "item",
+      "text": "lemon juice - If required"
+    },
+    {
+      "type": "item",
+      "text": "8 chopped garlic cloves"
+    }
+  ],
+  "instructions": [],
+  "notes": [],
+  "extra": ""
+}

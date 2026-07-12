@@ -1,0 +1,56 @@
+{
+  "id": "chocolate-glaze",
+  "title": "chocolate glaze",
+  "description": "for donuts etc",
+  "source": {
+    "label": "",
+    "url": ""
+  },
+  "image": "",
+  "servings": "",
+  "categories": [],
+  "ingredients": [
+    {
+      "type": "item",
+      "text": "1 TBS butter"
+    },
+    {
+      "type": "item",
+      "text": "2 TBS shortening"
+    },
+    {
+      "type": "item",
+      "text": "2 TBS cocoa"
+    },
+    {
+      "type": "item",
+      "text": "2 TBS hot water +"
+    },
+    {
+      "type": "item",
+      "text": "1/2 tsp vanillin sugar"
+    },
+    {
+      "type": "item",
+      "text": "1 tsp milk powder"
+    },
+    {
+      "type": "item",
+      "text": "1 cup powdered sugar"
+    },
+    {
+      "type": "item",
+      "text": "for donuts add more powdered sugar + try corn syrup"
+    }
+  ],
+  "instructions": [
+    {
+      "type": "step",
+      "text": "melt butter + shortening\nmix in rest"
+    }
+  ],
+  "notes": [
+    "may have to heat up and whisk to get proper consistency"
+  ],
+  "extra": ""
+}

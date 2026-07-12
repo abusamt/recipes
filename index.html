@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Muminah's Recipes</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#/">
+        <span class="brand-mark">R</span>
+        <span>
+          <strong>Muminah's Recipes</strong>
+          <small>CopyMeThat archive</small>
+        </span>
+      </a>
+      <nav class="main-nav" aria-label="Main">
+        <a href="#/" data-nav="recipes">Recipes</a>
+        <a href="#/builder" data-nav="builder">Create JSON</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="recipesView" class="view-shell">
+        <div class="toolbar" aria-label="Recipe controls">
+          <div class="search-box">
+            <label for="searchInput">Search</label>
+            <input id="searchInput" type="search" placeholder="Ingredients, dish, or text" autocomplete="off">
+          </div>
+          <label class="select-box">
+            Sort
+            <select id="sortSelect">
+              <option value="title">Title</option>
+              <option value="ingredients">Most ingredients</option>
+              <option value="steps">Most steps</option>
+            </select>
+          </label>
+          <div class="segmented" aria-label="View">
+            <button id="gridButton" type="button" aria-pressed="true" title="Grid view">▦</button>
+            <button id="listButton" type="button" aria-pressed="false" title="List view">☰</button>
+          </div>
+        </div>
+
+        <div class="status-line">
+          <span id="resultCount">0 recipes</span>
+          <a href="data/recipes.jsonl">JSONL</a>
+        </div>
+
+        <div id="recipeGrid" class="recipe-grid" aria-live="polite"></div>
+      </section>
+
+      <section id="detailView" class="detail-shell" hidden>
+        <div class="detail-actions">
+          <a href="#/" class="back-link">← Recipes</a>
+          <button id="printButton" type="button">Print</button>
+        </div>
+        <article id="recipeDetail" class="recipe-detail"></article>
+      </section>
+
+      <section id="builderView" class="builder-shell" hidden>
+        <div class="builder-grid">
+          <form id="recipeForm" class="builder-form">
+            <div class="field-row">
+              <label>Title<input name="title" required placeholder="Glazed Donuts"></label>
+              <label>Servings<input name="servings" placeholder="12"></label>
+            </div>
+            <label>Description<textarea name="description" rows="3" placeholder="Short note or summary"></textarea></label>
+            <label>Source URL<input name="sourceUrl" type="url" placeholder="https://..."></label>
+            <label>Image path<input name="image" placeholder="images/example.jpg"></label>
+            <label>Categories<input name="categories" placeholder="Dessert, Bread"></label>
+            <label>Ingredients<textarea name="ingredients" rows="8" placeholder="One ingredient per line. Use ## Dough for headings."></textarea></label>
+            <label>Steps<textarea name="instructions" rows="8" placeholder="One step per line. Use ## Sauce for headings."></textarea></label>
+            <label>Notes<textarea name="notes" rows="4" placeholder="One note per line"></textarea></label>
+            <div class="form-actions">
+              <button type="button" id="copyJsonButton">Copy JSON</button>
+              <button type="button" id="downloadJsonButton">Download JSON</button>
+            </div>
+          </form>
+          <aside class="json-preview">
+            <div class="preview-title">
+              <strong>Recipe JSON</strong>
+              <span id="builderFilename">recipe.json</span>
+            </div>
+            <pre id="jsonPreview">{}</pre>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>

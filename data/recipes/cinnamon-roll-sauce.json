@@ -1,0 +1,33 @@
+{
+  "id": "cinnamon-roll-sauce",
+  "title": "Cinnamon Roll Sauce",
+  "description": "",
+  "source": {
+    "label": "",
+    "url": ""
+  },
+  "image": "",
+  "servings": "",
+  "categories": [],
+  "ingredients": [
+    {
+      "type": "item",
+      "text": "1/2c butter"
+    },
+    {
+      "type": "item",
+      "text": "1/2c sugar"
+    },
+    {
+      "type": "item",
+      "text": "some water"
+    },
+    {
+      "type": "item",
+      "text": "molasses"
+    }
+  ],
+  "instructions": [],
+  "notes": [],
+  "extra": ""
+}

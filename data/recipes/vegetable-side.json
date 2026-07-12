@@ -1,0 +1,36 @@
+{
+  "id": "vegetable-side",
+  "title": "vegetable side",
+  "description": "mixed veggies",
+  "source": {
+    "label": "",
+    "url": ""
+  },
+  "image": "",
+  "servings": "like 4?",
+  "categories": [],
+  "ingredients": [
+    {
+      "type": "item",
+      "text": "halved fresh green beans, frozen corn, sliced red onion, julienned carrots, circled (cut) sweet peppers,"
+    },
+    {
+      "type": "item",
+      "text": "lemon juice, salt, msg, pepper, parmesan cheese"
+    },
+    {
+      "type": "item",
+      "text": "measurements (whatever looks right)"
+    }
+  ],
+  "instructions": [
+    {
+      "type": "step",
+      "text": "cut veggies (including\ncook green beans in oil a couple minutes before the rest\nadd rest of veggies\ncook until browning appears\nonce almost done, add parm and stir together"
+    }
+  ],
+  "notes": [
+    "green bean veggie side"
+  ],
+  "extra": ""
+}

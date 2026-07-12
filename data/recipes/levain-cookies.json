@@ -1,0 +1,114 @@
+{
+  "id": "levain-cookies",
+  "title": "Levain Cookies",
+  "description": "NO CONVECTION",
+  "source": {
+    "label": "",
+    "url": ""
+  },
+  "image": "images/levain_cookies_czigf.jpg",
+  "servings": "NO CONVECTION",
+  "categories": [],
+  "ingredients": [
+    {
+      "type": "item",
+      "text": "1.5 cups (230g) cake flour"
+    },
+    {
+      "type": "item",
+      "text": "2 cups (275g) all purpose flour"
+    },
+    {
+      "type": "item",
+      "text": "1.5 tsp (5g) kosher salt"
+    },
+    {
+      "type": "item",
+      "text": "2 tsp (8g) corn starch"
+    },
+    {
+      "type": "item",
+      "text": "1/2 tsp (6g) baking soda"
+    },
+    {
+      "type": "item",
+      "text": "1.25 cups (280g) unsalted butter"
+    },
+    {
+      "type": "item",
+      "text": "1.25 cups (285g) brown sugar"
+    },
+    {
+      "type": "item",
+      "text": "1/2 cup (115g) white granulated sugar"
+    },
+    {
+      "type": "item",
+      "text": "2 eggs"
+    },
+    {
+      "type": "item",
+      "text": "3 egg yolks"
+    },
+    {
+      "type": "item",
+      "text": "2 cups (165g) walnuts lightly toasted"
+    },
+    {
+      "type": "item",
+      "text": "13 oz (368.45g) chopped chocolate"
+    }
+  ],
+  "instructions": [
+    {
+      "type": "step",
+      "text": "In a medium saucepan, melt unsalted butter and set to the side to cool."
+    },
+    {
+      "type": "step",
+      "text": "Roughly chop the dark chocolate."
+    },
+    {
+      "type": "step",
+      "text": "In a medium size bowl, combine cake flour, all-purpose flour, kosher salt, cornstarch, and baking soda. Whisk together."
+    },
+    {
+      "type": "step",
+      "text": "Using a stand mixer fitted with the whisk attachment, add light brown sugar and granulated sugar. Whisk together on medium speed then slowly stream in the butter."
+    },
+    {
+      "type": "step",
+      "text": "Once combined add in the eggs one at a time followed by the egg yolks."
+    },
+    {
+      "type": "step",
+      "text": "Once smooth switch to the paddle attachment and mix in the flour mixture until smooth."
+    },
+    {
+      "type": "step",
+      "text": "Add in rough chopped walnuts and chopped chocolate. Mix until combined."
+    },
+    {
+      "type": "step",
+      "text": "Place in a bowl, cover, and refrigerate for at least 45 minutes."
+    },
+    {
+      "type": "step",
+      "text": "Weigh each dough ball out to 5.9oz and place on a parchment lined baking sheet."
+    },
+    {
+      "type": "step",
+      "text": "Bake in a 415F for 10-13 minutes. (lower if needed to 400F or less)"
+    },
+    {
+      "type": "step",
+      "text": "NO CONVECTION"
+    },
+    {
+      "type": "step",
+      "text": "Set on a wire rack to cool before serving."
+    }
+  ],
+  "notes": [],
+  "extra": "I made this."
+}

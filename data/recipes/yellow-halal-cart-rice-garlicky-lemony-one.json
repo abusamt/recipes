@@ -1,0 +1,54 @@
+{
+  "id": "yellow-halal-cart-rice-garlicky-lemony-one",
+  "title": "yellow halal cart rice (garlicky lemony one)",
+  "description": "",
+  "source": {
+    "label": "",
+    "url": ""
+  },
+  "image": "",
+  "servings": "",
+  "categories": [],
+  "ingredients": [
+    {
+      "type": "item",
+      "text": "1 cup rice"
+    },
+    {
+      "type": "item",
+      "text": "2 cups water"
+    },
+    {
+      "type": "item",
+      "text": "1 TBS bouiilon"
+    },
+    {
+      "type": "item",
+      "text": "1 tsp garlic powder or less"
+    },
+    {
+      "type": "item",
+      "text": "1/2 Tbs ghee"
+    },
+    {
+      "type": "item",
+      "text": "pinch smoked paprika"
+    },
+    {
+      "type": "item",
+      "text": "dash of MSG"
+    },
+    {
+      "type": "item",
+      "text": "lemon juice"
+    }
+  ],
+  "instructions": [
+    {
+      "type": "step",
+      "text": "mix water and spices and ghee, mix more when melted\nwhen done, squeeze lemon juice over rice and fluff together"
+    }
+  ],
+  "notes": [],
+  "extra": ""
+}

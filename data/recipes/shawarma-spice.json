@@ -1,0 +1,53 @@
+{
+  "id": "shawarma-spice",
+  "title": "Shawarma Spice",
+  "description": "",
+  "source": {
+    "label": "",
+    "url": ""
+  },
+  "image": "",
+  "servings": "",
+  "categories": [],
+  "ingredients": [
+    {
+      "type": "item",
+      "text": "cut in half for less chicken"
+    },
+    {
+      "type": "item",
+      "text": "1/2 cup extra virgin olive oil 1⁄4"
+    },
+    {
+      "type": "item",
+      "text": "1 large onion, cut into small dice (or 1tbsp onion powder) 1⁄2"
+    },
+    {
+      "type": "item",
+      "text": "1 tablespoon ras el hanout 1⁄2"
+    },
+    {
+      "type": "item",
+      "text": "1 teaspoon sweet smoked paprika 1⁄2"
+    },
+    {
+      "type": "item",
+      "text": "~1 teaspoon kosher salt 1⁄2"
+    },
+    {
+      "type": "item",
+      "text": "1/2 cup roughly chopped cilantro, stems included (or 1/4cup dried cilantro) 1⁄4"
+    },
+    {
+      "type": "item",
+      "text": "2 tablespoons harissa 1"
+    }
+  ],
+  "instructions": [],
+  "notes": [
+    "good amount for: 1lb meat + 8 extra large eggs + 30oz tomatoes + bread. or use necessary amount for other meats and vegetables",
+    "ras al hanuwt: www.amazon.com/dp/B07YVJQMNV/",
+    "harissa: www.amazon.com/dp/B00CB5EHAG/"
+  ],
+  "extra": ""
+}

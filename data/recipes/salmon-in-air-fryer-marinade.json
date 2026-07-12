@@ -1,0 +1,62 @@
+{
+  "id": "salmon-in-air-fryer-marinade",
+  "title": "Salmon in Air Fryer (marinade)",
+  "description": "tasty",
+  "source": {
+    "label": "",
+    "url": ""
+  },
+  "image": "",
+  "servings": "2 filet",
+  "categories": [],
+  "ingredients": [
+    {
+      "type": "item",
+      "text": "key west key lime juice"
+    },
+    {
+      "type": "item",
+      "text": "1/2 tsp bl pepper"
+    },
+    {
+      "type": "item",
+      "text": "1 TBS garlic"
+    },
+    {
+      "type": "item",
+      "text": "1 TBS paprika"
+    },
+    {
+      "type": "item",
+      "text": "1 TBS onion powder"
+    },
+    {
+      "type": "item",
+      "text": "1 tsp black garlic"
+    },
+    {
+      "type": "item",
+      "text": "1 tsp celery salt"
+    },
+    {
+      "type": "item",
+      "text": "2 TBS dijon"
+    },
+    {
+      "type": "item",
+      "text": "2 TBS olive oil"
+    },
+    {
+      "type": "item",
+      "text": "1.5 tsp molasses"
+    }
+  ],
+  "instructions": [
+    {
+      "type": "step",
+      "text": "do"
+    }
+  ],
+  "notes": [],
+  "extra": ""
+}

@@ -1,0 +1,78 @@
+{
+  "id": "edible-gingerbread",
+  "title": "edible gingerbread",
+  "description": "",
+  "source": {
+    "label": "",
+    "url": ""
+  },
+  "image": "",
+  "servings": "",
+  "categories": [],
+  "ingredients": [
+    {
+      "type": "item",
+      "text": "9x13\" pan with parchment"
+    },
+    {
+      "type": "item",
+      "text": "oven temp: 350F"
+    },
+    {
+      "type": "item",
+      "text": "1 cup (237 mL) milk or water (used infused cream + butter) + added vanilla to that"
+    },
+    {
+      "type": "item",
+      "text": "1/2 cup (118 mL) molasses"
+    },
+    {
+      "type": "item",
+      "text": "1/2 cup (118 mL) honey"
+    },
+    {
+      "type": "item",
+      "text": "1/2 cup (one stick, 113g) butter (I used half shortening, half butter)"
+    },
+    {
+      "type": "item",
+      "text": "1/2 cup (100g) granulated sugar"
+    },
+    {
+      "type": "item",
+      "text": "1 egg"
+    },
+    {
+      "type": "item",
+      "text": "2 1/2 cups (300g) all-purpose flour"
+    },
+    {
+      "type": "item",
+      "text": "1/2 teaspoon salt (maybe 3/4 if using unsalted butter)"
+    },
+    {
+      "type": "item",
+      "text": "1 1/2 teaspoons baking soda + PINCH OF BAKING POWDER"
+    },
+    {
+      "type": "item",
+      "text": "2 tablespoons ground cinnamon"
+    },
+    {
+      "type": "item",
+      "text": "2 tablespoons ground ginger (use half if you don't want it very spicy)"
+    },
+    {
+      "type": "item",
+      "text": "a little finely-ground black pepper"
+    }
+  ],
+  "instructions": [
+    {
+      "type": "step",
+      "text": "Pour the cream into a pot on stove over low heat, add in shortening and butter as well as distillate\nwarm and stir until all distillate is out\nAdd splash of vanilla\nRemove from heat, add molasses and honey, stir, set aside\nMix dry ingredients, flour, salt, b powder,+ b soda, spices-- whisk to combine to fluff flour\nPut the sugar in with the wet ingredients along with the egg and stir until smooth.\nPour the wet mixture into the dry and whisk until just smooth\nmake sure mix is slightly warm\nPour into 9x13 or [bread loaf pan(takes longer)]\nBake 15-35 mins\nTake out just before done\nAdd marshmallows + broil\nTake out with parchment and cool on rack"
+    }
+  ],
+  "notes": [],
+  "extra": ""
+}

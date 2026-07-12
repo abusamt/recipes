@@ -1,0 +1,50 @@
+{
+  "id": "cucumber-avocado-salad",
+  "title": "cucumber avocado salad",
+  "description": "",
+  "source": {
+    "label": "",
+    "url": ""
+  },
+  "image": "",
+  "servings": "",
+  "categories": [],
+  "ingredients": [
+    {
+      "type": "item",
+      "text": "- 1 normal cucumber or 2 smaller ones"
+    },
+    {
+      "type": "item",
+      "text": "- 2 smaller avocados"
+    },
+    {
+      "type": "item",
+      "text": "- 1/4 to 1/2 a carrot, thinly julienned"
+    },
+    {
+      "type": "item",
+      "text": "- 2 TBS or so of lemon juice"
+    },
+    {
+      "type": "item",
+      "text": "- salt & pepper"
+    },
+    {
+      "type": "item",
+      "text": "- 2 scallions"
+    },
+    {
+      "type": "item",
+      "text": "red pepper flakes, everything bagel seasoning"
+    }
+  ],
+  "instructions": [
+    {
+      "type": "step",
+      "text": "sliced thinly the scallions-- add to ice water\npeel and chop cucumber, place in bowl with salt 5-15 minutes\ndrain cucumbers\nchop avocado, mix with lemon juice, salt & pepper, & julienned carrots\ndrain scallions\nadd all together and stir\nadd everything bagel seasoning and red pepper flakes"
+    }
+  ],
+  "notes": [],
+  "extra": ""
+}

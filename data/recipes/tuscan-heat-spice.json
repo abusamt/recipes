@@ -1,0 +1,41 @@
+{
+  "id": "tuscan-heat-spice",
+  "title": "Tuscan Heat Spice",
+  "description": "",
+  "source": {
+    "label": "",
+    "url": ""
+  },
+  "image": "",
+  "servings": "",
+  "categories": [],
+  "ingredients": [
+    {
+      "type": "item",
+      "text": "4 parts dried basil"
+    },
+    {
+      "type": "item",
+      "text": "2 parts dried rosemary"
+    },
+    {
+      "type": "item",
+      "text": "2 parts dried oregano"
+    },
+    {
+      "type": "item",
+      "text": "2 parts garlic powder"
+    },
+    {
+      "type": "item",
+      "text": "1 part cayenne pepper [7.5 k (hu)]"
+    },
+    {
+      "type": "item",
+      "text": "1 part ground fennel"
+    }
+  ],
+  "instructions": [],
+  "notes": [],
+  "extra": ""
+}

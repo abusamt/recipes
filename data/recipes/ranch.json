@@ -1,0 +1,57 @@
+{
+  "id": "ranch",
+  "title": "Ranch",
+  "description": "",
+  "source": {
+    "label": "",
+    "url": ""
+  },
+  "image": "",
+  "servings": "",
+  "categories": [],
+  "ingredients": [
+    {
+      "type": "item",
+      "text": "1⁄2 Cup Mayonnaise"
+    },
+    {
+      "type": "item",
+      "text": "▢1⁄4 Cup Sour Cream, or Greek yogurt"
+    },
+    {
+      "type": "item",
+      "text": "▢2 teaspoons Dried Chives"
+    },
+    {
+      "type": "item",
+      "text": "▢1⁄2 teaspoon Dried Dill LESS"
+    },
+    {
+      "type": "item",
+      "text": "▢1⁄2 teaspoon Dried Parsley"
+    },
+    {
+      "type": "item",
+      "text": "▢1⁄2 teaspoon Garlic Powder"
+    },
+    {
+      "type": "item",
+      "text": "▢1⁄2 teaspoon Onion Powder"
+    },
+    {
+      "type": "item",
+      "text": "▢1⁄4 teaspoon Salt"
+    },
+    {
+      "type": "item",
+      "text": "▢1⁄8 teaspoon pepper"
+    },
+    {
+      "type": "item",
+      "text": "▢3⁄4 Cup Buttermilk, or regular whole milk"
+    }
+  ],
+  "instructions": [],
+  "notes": [],
+  "extra": ""
+}

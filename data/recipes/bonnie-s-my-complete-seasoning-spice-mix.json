@@ -1,0 +1,57 @@
+{
+  "id": "bonnie-s-my-complete-seasoning-spice-mix",
+  "title": "Bonnie's My Complete Seasoning Spice Mix",
+  "description": "",
+  "source": {
+    "label": "https://www.justapinch.com/recipes/sauce-spread/marinade/my-complete-seasoning.html",
+    "url": "https://www.justapinch.com/recipes/sauce-spread/marinade/my-complete-seasoning.html"
+  },
+  "image": "images/bonnie39s_my_complete_seasoning_spice_mi_htiss.jpg",
+  "servings": "",
+  "categories": [],
+  "ingredients": [
+    {
+      "type": "item",
+      "text": "3 tablespoons salt"
+    },
+    {
+      "type": "item",
+      "text": "1 tablespoon paprika"
+    },
+    {
+      "type": "item",
+      "text": "1 tablespoon onion powder"
+    },
+    {
+      "type": "item",
+      "text": "1 tablespoon garlic powder"
+    },
+    {
+      "type": "item",
+      "text": "1/2 tablespoon white pepper"
+    },
+    {
+      "type": "item",
+      "text": "1 1/2 teaspoon ground thyme"
+    },
+    {
+      "type": "item",
+      "text": "3/4 teaspoon black pepper"
+    },
+    {
+      "type": "item",
+      "text": "1/2 teaspoon ground oregano"
+    },
+    {
+      "type": "heading",
+      "text": "optional:"
+    },
+    {
+      "type": "item",
+      "text": "1 tablespoon cayenne for latin dishes"
+    }
+  ],
+  "instructions": [],
+  "notes": [],
+  "extra": ""
+}

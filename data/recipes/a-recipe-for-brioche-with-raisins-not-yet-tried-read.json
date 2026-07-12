@@ -1,0 +1,150 @@
+{
+  "id": "a-recipe-for-brioche-with-raisins-not-yet-tried-read",
+  "title": "A Recipe for Brioche with Raisins--not yet tried/read",
+  "description": "",
+  "source": {
+    "label": "https://www.moroccoworldnews.com/2013/05/92644/moroccan-pastry-a-recipe-for-brioche-with-raisins-2",
+    "url": "https://www.moroccoworldnews.com/2013/05/92644/moroccan-pastry-a-recipe-for-brioche-with-raisins-2"
+  },
+  "image": "images/read_acci7.jpg",
+  "servings": "",
+  "categories": [],
+  "ingredients": [
+    {
+      "type": "heading",
+      "text": "For the dough:"
+    },
+    {
+      "type": "item",
+      "text": "500g white flour."
+    },
+    {
+      "type": "item",
+      "text": "50g butter."
+    },
+    {
+      "type": "item",
+      "text": "1 egg."
+    },
+    {
+      "type": "item",
+      "text": "60g sugar."
+    },
+    {
+      "type": "item",
+      "text": "2 tbsp powder milk."
+    },
+    {
+      "type": "item",
+      "text": "15g baking yeast."
+    },
+    {
+      "type": "item",
+      "text": "1 baking powder."
+    },
+    {
+      "type": "heading",
+      "text": "For the custard ( crème patissiére):"
+    },
+    {
+      "type": "item",
+      "text": "2 cups milk."
+    },
+    {
+      "type": "item",
+      "text": "1 egg."
+    },
+    {
+      "type": "item",
+      "text": "2 tbsp sugar."
+    },
+    {
+      "type": "item",
+      "text": "1tsp vanilla."
+    },
+    {
+      "type": "item",
+      "text": "20g flour or cornflower (cornstarch)."
+    },
+    {
+      "type": "item",
+      "text": "100g raisin for garnish."
+    }
+  ],
+  "instructions": [
+    {
+      "type": "heading",
+      "text": "Way of preparation:"
+    },
+    {
+      "type": "heading",
+      "text": "The dough:"
+    },
+    {
+      "type": "step",
+      "text": "In a big bowl, put the dry ingredients then add butter and mix well."
+    },
+    {
+      "type": "step",
+      "text": "Add an egg and warm water little by little then knead well until the dough is smooth and cohesive."
+    },
+    {
+      "type": "step",
+      "text": "Let the dough rest for an hour in the refrigerator. (It’s better to keep it in the fridge for the whole night)"
+    },
+    {
+      "type": "step",
+      "text": "You can use puff pastry."
+    },
+    {
+      "type": "heading",
+      "text": "The custard:"
+    },
+    {
+      "type": "step",
+      "text": "Mix an egg with sugar, vanilla and cornflower."
+    },
+    {
+      "type": "step",
+      "text": "In a saucepan, boil milk then add it to the first mixture and mix well."
+    },
+    {
+      "type": "step",
+      "text": "Put the mixture on a low heat and keep stirring until we get a thick cream."
+    },
+    {
+      "type": "step",
+      "text": "Put the cream in refrigerator."
+    },
+    {
+      "type": "step",
+      "text": "Make two balls from the dough and flatten them with a rolling pin."
+    },
+    {
+      "type": "step",
+      "text": "Spread custard on the surface and sprinkle raisins on the top then roll the dough."
+    },
+    {
+      "type": "step",
+      "text": "Cut the rolling dough into circles (you can put the rolling dough in the freezer for an hour to keep its shape while cutting)"
+    },
+    {
+      "type": "step",
+      "text": "Place brioche in an oven tray and brash them with a whipped egg then sprinkle some almonds flakes or ground almonds on the top. (Optional)"
+    },
+    {
+      "type": "step",
+      "text": "Bake it in a pre heated oven for 25 to 30 minutes."
+    },
+    {
+      "type": "step",
+      "text": "After baking you can brush the brioche with jam."
+    },
+    {
+      "type": "step",
+      "text": "Serve with tea!"
+    }
+  ],
+  "notes": [],
+  "extra": ""
+}

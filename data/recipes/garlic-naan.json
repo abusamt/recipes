@@ -1,0 +1,118 @@
+{
+  "id": "garlic-naan",
+  "title": "Garlic Naan",
+  "description": "Chainbaker recipe",
+  "source": {
+    "label": "",
+    "url": ""
+  },
+  "image": "images/garlic_naan_hcykc.jpg",
+  "servings": "4 large, 8 sm",
+  "categories": [],
+  "ingredients": [
+    {
+      "type": "item",
+      "text": "For the dough –"
+    },
+    {
+      "type": "item",
+      "text": "250g (8.8oz) strong white bread flour"
+    },
+    {
+      "type": "item",
+      "text": "5g (0.2oz) salt"
+    },
+    {
+      "type": "item",
+      "text": "5g (0.2oz) sugar"
+    },
+    {
+      "type": "item",
+      "text": "3-6g (0.1oz) dry yeast or three times the amount of fresh yeast"
+    },
+    {
+      "type": "item",
+      "text": "10g (0.35oz) oil"
+    },
+    {
+      "type": "item",
+      "text": "60g (2.1oz) yogurt at around 20C (68F)"
+    },
+    {
+      "type": "item",
+      "text": "100g (3.5oz) milk at around 20C (68F)"
+    },
+    {
+      "type": "item",
+      "text": "For the garlic butter –"
+    },
+    {
+      "type": "item",
+      "text": "2 tablespoons of softened butter"
+    },
+    {
+      "type": "item",
+      "text": "Chopped parsley"
+    },
+    {
+      "type": "item",
+      "text": "1 minced clove of garlic"
+    },
+    {
+      "type": "item",
+      "text": "Pinch of salt (Mix everything until combined ready for spreading)"
+    }
+  ],
+  "instructions": [
+    {
+      "type": "step",
+      "text": "Add the milk and yeast to a bowl and let the yeast hydrate for a couple of minutes."
+    },
+    {
+      "type": "step",
+      "text": "Add the salt, sugar, oil and yogurt and give it a good mix to dissolve any salt and sugar crystals."
+    },
+    {
+      "type": "step",
+      "text": "Add the flour and mix until combined."
+    },
+    {
+      "type": "step",
+      "text": "Knead the dough for around 5 minutes. Desired dough temperature 25 – 26C (77 – 79F). If your dough is\nwarmer, then reduce the proofing time. If it is cooler, then increase proofing time."
+    },
+    {
+      "type": "step",
+      "text": "Ferment for 25 minutes. My kitchen as quite warm on the day of baking, so I had to cut down on fermentation time. Keep an eye on your dough and if it is fermenting rapidly, react."
+    },
+    {
+      "type": "step",
+      "text": "Fold."
+    },
+    {
+      "type": "step",
+      "text": "Proof for 25 minutes."
+    },
+    {
+      "type": "step",
+      "text": "Divide into 4 equal pieces and shape into balls."
+    },
+    {
+      "type": "step",
+      "text": "Cover and proof for around 30 minutes."
+    },
+    {
+      "type": "step",
+      "text": "Roll the dough out and rub with oil."
+    },
+    {
+      "type": "step",
+      "text": "Cook in a pan on medium-high heat flipping every 30 seconds for around 4 minutes or until well coloured and puffed up. You can use more oil to get a more evenly brown colour."
+    },
+    {
+      "type": "step",
+      "text": "Brush the breads with the garlic butter and enjoy whilst still warm with your favourite curry."
+    }
+  ],
+  "notes": [],
+  "extra": "I made this."
+}

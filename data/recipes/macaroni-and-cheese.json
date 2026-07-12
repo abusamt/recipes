@@ -1,0 +1,61 @@
+{
+  "id": "macaroni-and-cheese",
+  "title": "Macaroni and Cheese",
+  "description": "elbow pasta in some cheeses etc",
+  "source": {
+    "label": "",
+    "url": ""
+  },
+  "image": "",
+  "servings": "",
+  "categories": [],
+  "ingredients": [
+    {
+      "type": "item",
+      "text": "33g white cheddar"
+    },
+    {
+      "type": "item",
+      "text": "33g mozzarella"
+    },
+    {
+      "type": "item",
+      "text": "33g queso"
+    },
+    {
+      "type": "item",
+      "text": "1c milk (1/2 cream, 1/2 water + milk powder)"
+    },
+    {
+      "type": "item",
+      "text": "4g sodium citrate"
+    },
+    {
+      "type": "item",
+      "text": "2.5 Tbs uns butter"
+    },
+    {
+      "type": "item",
+      "text": "15g ap flour"
+    },
+    {
+      "type": "item",
+      "text": "1/3 tsp salt"
+    },
+    {
+      "type": "item",
+      "text": "single slice American cheese"
+    },
+    {
+      "type": "item",
+      "text": "some pasta, more than 1/4 lb"
+    },
+    {
+      "type": "item",
+      "text": "* * save extra cheese sauce and freeze **"
+    }
+  ],
+  "instructions": [],
+  "notes": [],
+  "extra": ""
+}

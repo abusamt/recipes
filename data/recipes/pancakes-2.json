@@ -1,0 +1,58 @@
+{
+  "id": "pancakes-2",
+  "title": "Pancakes",
+  "description": "",
+  "source": {
+    "label": "",
+    "url": ""
+  },
+  "image": "",
+  "servings": "",
+  "categories": [],
+  "ingredients": [
+    {
+      "type": "item",
+      "text": "1 cup all-purpose flour, (spooned and leveled) MORE"
+    },
+    {
+      "type": "item",
+      "text": "2 tablespoons sugar (maybe more)"
+    },
+    {
+      "type": "item",
+      "text": "2 teaspoons baking powder"
+    },
+    {
+      "type": "item",
+      "text": "1⁄2 teaspoon salt"
+    },
+    {
+      "type": "item",
+      "text": "1 cup milk LESS"
+    },
+    {
+      "type": "item",
+      "text": "2 tablespoons unsalted butter, melted, or vegetable oil"
+    },
+    {
+      "type": "item",
+      "text": "1 large egg"
+    },
+    {
+      "type": "item",
+      "text": "1 tablespoon vegetable oil"
+    },
+    {
+      "type": "item",
+      "text": "Lil vanilla bean"
+    }
+  ],
+  "instructions": [
+    {
+      "type": "step",
+      "text": "mix and adjust according to preference of thickness"
+    }
+  ],
+  "notes": [],
+  "extra": ""
+}

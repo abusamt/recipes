@@ -1,0 +1,41 @@
+{
+  "id": "garlic-sauce",
+  "title": "garlic sauce",
+  "description": "",
+  "source": {
+    "label": "",
+    "url": ""
+  },
+  "image": "",
+  "servings": "",
+  "categories": [],
+  "ingredients": [
+    {
+      "type": "item",
+      "text": "100g mayo"
+    },
+    {
+      "type": "item",
+      "text": "50g greek yogurt"
+    },
+    {
+      "type": "item",
+      "text": "15g vinegar"
+    },
+    {
+      "type": "item",
+      "text": "10 cranks black pepper"
+    },
+    {
+      "type": "item",
+      "text": "juice from quarter lemon"
+    },
+    {
+      "type": "item",
+      "text": "salt"
+    }
+  ],
+  "instructions": [],
+  "notes": [],
+  "extra": ""
+}

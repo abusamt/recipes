@@ -1,0 +1,70 @@
+{
+  "id": "falafel",
+  "title": "falafel",
+  "description": "",
+  "source": {
+    "label": "",
+    "url": ""
+  },
+  "image": "images/falafel_d3oct.jpg",
+  "servings": "",
+  "categories": [],
+  "ingredients": [
+    {
+      "type": "item",
+      "text": "2 cups dried chickpeas (soaked 12 hours)"
+    },
+    {
+      "type": "item",
+      "text": "1 L onion chopped or 2 medium/sm"
+    },
+    {
+      "type": "item",
+      "text": "1/4 cup parsley and cilantro (more)"
+    },
+    {
+      "type": "item",
+      "text": "4 sliced garlic cloves"
+    },
+    {
+      "type": "item",
+      "text": "pinch baking powder?"
+    },
+    {
+      "type": "item",
+      "text": "1 tsp coriander"
+    },
+    {
+      "type": "item",
+      "text": "1 tsp cumin"
+    },
+    {
+      "type": "item",
+      "text": "salt to taste (1-2 tsp)"
+    },
+    {
+      "type": "item",
+      "text": "xanthan gum 2 tsp"
+    },
+    {
+      "type": "item",
+      "text": "besan to coat"
+    }
+  ],
+  "instructions": [
+    {
+      "type": "step",
+      "text": "Combine soaked chickpeas with onion, herbs and garlic in a large bowl, stir together\nScoop into food processor\nBlend and hold, stir with spatula, scrape sides\nadd little bit of water if needed\nDump mixture resembling ricotta? into bowl\nAdd spices, baking powder, and xanthan gum\nMix thoroughly with spatula"
+    },
+    {
+      "type": "step",
+      "text": "shape into falafel\ncoat with besan\nfry 350F oil?\nuntil golden and crisp"
+    }
+  ],
+  "notes": [
+    "Need oven tray lined with parchment (for falafel balls)",
+    "Need oven tray lined with parchment and oven rack (for cooked falafel)",
+    "Spider"
+  ],
+  "extra": ""
+}
