@@ -21,6 +21,7 @@ Generated files:
 - `data/recipes-index.json` powers search, cards, and sorting.
 - `data/recipes.jsonl` stores the full collection as newline-delimited JSON.
 - `data/recipes.js` embeds the catalog for browsers that block runtime JSON requests.
+- `data/site-config.js` records the current repository identity for fork-safe GitHub links.
 
 Run this after adding or editing recipe Markdown:
 
@@ -29,6 +30,10 @@ python scripts/build_data.py
 ```
 
 GitHub Actions also runs that build automatically on pushes to `main`.
+
+## Forking
+
+Forks are first-class copies of the app. GitHub Actions derives the fork owner and repository name automatically, and the Edit and Open GitHub New File links target that fork. A fork owner can add or edit Markdown recipes, let the workflow regenerate the derived data, and submit the resulting branch or commits as a pull request.
 
 ## Editing and Adding a Recipe
 

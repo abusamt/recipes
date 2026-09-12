@@ -1,4 +1,13 @@
-const REPOSITORY = "abusamt/recipes";
+function repositoryFromPagesUrl() {
+  const ownerMatch = location.hostname.match(/^([^./]+)\.github\.io$/i);
+  if (!ownerMatch) return "abusamt/recipes";
+  const project = location.pathname.split("/").filter(Boolean)[0] || `${ownerMatch[1]}.github.io`;
+  return `${ownerMatch[1]}/${project}`;
+}
+
+const REPOSITORY = location.hostname.endsWith(".github.io")
+  ? repositoryFromPagesUrl()
+  : (window.RECIPE_REPOSITORY || repositoryFromPagesUrl());
 const BRANCH = "main";
 const GITHUB_EDIT_BASE = `https://github.com/${REPOSITORY}/edit/${BRANCH}/`;
 
