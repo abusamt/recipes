@@ -1,5 +1,5 @@
 {
-  "count": 73,
+  "count": 74,
   "recipes": [
     {
       "id": "4-ingredient-vegan-date-caramel-sauce",
@@ -160,6 +160,25 @@
       "ingredientCount": 9,
       "stepCount": 1,
       "search": "bonnie's my complete seasoning spice mix    3 tablespoons salt 1 tablespoon paprika 1 tablespoon onion powder 1 tablespoon garlic powder 1/2 tablespoon white pepper 1 1/2 teaspoon ground thyme 3/4 teaspoon black pepper 1/2 teaspoon ground oregano optional: 1 tablespoon cayenne for latin dishes -  https://www.justapinch.com/recipes/sauce-spread/marinade/my-complete-seasoning.html"
+    },
+    {
+      "id": "box-cake-cookies",
+      "title": "Box Cake Cookies",
+      "description": "This recipe makes cookies from any 15.25 oz (432 g) box of cake mix.",
+      "image": "",
+      "servings": "",
+      "categories": [
+        "Cookies",
+        "Dessert"
+      ],
+      "source": {
+        "label": "",
+        "url": ""
+      },
+      "editPath": "data/recipes-md/box-cake-cookies.md",
+      "ingredientCount": 3,
+      "stepCount": 5,
+      "search": "box cake cookies this recipe makes cookies from any 15.25 oz (432 g) box of cake mix.  cookies dessert 1 box cake mix, 15.25 oz / 432 g 2 large eggs, approximately 100 g without shells 1/2 cup oil / approximately 120 g; avocado oil works well preheat the oven to 335-350°f / 168-177°c. mix the cake mix, eggs, and oil until combined. scoop the dough onto a lined baking sheet. cookie size does not matter too much. bake for about 8-10 minutes, turning the tray halfway through baking. cool the cookies before serving.  "
     },
     {
       "id": "brioche",

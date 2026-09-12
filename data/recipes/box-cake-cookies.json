@@ -1,0 +1,53 @@
+{
+  "id": "box-cake-cookies",
+  "title": "Box Cake Cookies",
+  "description": "This recipe makes cookies from any 15.25 oz (432 g) box of cake mix.",
+  "source": {
+    "label": "",
+    "url": ""
+  },
+  "image": "",
+  "servings": "",
+  "categories": [
+    "Cookies",
+    "Dessert"
+  ],
+  "ingredients": [
+    {
+      "type": "item",
+      "text": "1 box cake mix, 15.25 oz / 432 g"
+    },
+    {
+      "type": "item",
+      "text": "2 large eggs, approximately 100 g without shells"
+    },
+    {
+      "type": "item",
+      "text": "1/2 cup oil / approximately 120 g; avocado oil works well"
+    }
+  ],
+  "instructions": [
+    {
+      "type": "step",
+      "text": "Preheat the oven to 335-350°F / 168-177°C."
+    },
+    {
+      "type": "step",
+      "text": "Mix the cake mix, eggs, and oil until combined."
+    },
+    {
+      "type": "step",
+      "text": "Scoop the dough onto a lined baking sheet. Cookie size does not matter too much."
+    },
+    {
+      "type": "step",
+      "text": "Bake for about 8-10 minutes, turning the tray halfway through baking."
+    },
+    {
+      "type": "step",
+      "text": "Cool the cookies before serving."
+    }
+  ],
+  "notes": [],
+  "extra": ""
+}
