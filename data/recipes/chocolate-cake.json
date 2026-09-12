@@ -9,8 +9,18 @@
   "image": "",
   "servings": "",
   "categories": [],
-  "ingredients": [],
-  "instructions": [],
+  "ingredients": [
+    {
+      "type": "item",
+      "text": "-"
+    }
+  ],
+  "instructions": [
+    {
+      "type": "step",
+      "text": "-"
+    }
+  ],
   "notes": [],
   "extra": ""
 }

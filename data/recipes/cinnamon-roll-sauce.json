@@ -27,7 +27,12 @@
       "text": "molasses"
     }
   ],
-  "instructions": [],
+  "instructions": [
+    {
+      "type": "step",
+      "text": "-"
+    }
+  ],
   "notes": [],
   "extra": ""
 }

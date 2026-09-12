@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -29,6 +29,16 @@ jobs:
 
       - name: Build recipe data
         run: python scripts/build_data.py
+
+      - name: Commit generated recipe data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet -- data/recipes data/recipes-index.json data/recipes.jsonl; then
+            git add data/recipes data/recipes-index.json data/recipes.jsonl
+            git commit -m "Rebuild recipe data [skip ci]"
+            git push
+          fi
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

@@ -17,7 +17,7 @@
       </a>
       <nav class="main-nav" aria-label="Main">
         <a href="#/" data-nav="recipes">Recipes</a>
-        <a href="#/builder" data-nav="builder">Create JSON</a>
+        <a href="#/builder" data-nav="builder">Create Recipe</a>
       </nav>
     </header>
 
@@ -53,7 +53,10 @@
       <section id="detailView" class="detail-shell" hidden>
         <div class="detail-actions">
           <a href="#/" class="back-link">← Recipes</a>
-          <button id="printButton" type="button">Print</button>
+          <div class="detail-action-group">
+            <a id="editButton" href="#" target="_blank" rel="noreferrer">Edit</a>
+            <button id="printButton" type="button">Print</button>
+          </div>
         </div>
         <article id="recipeDetail" class="recipe-detail"></article>
       </section>
@@ -73,16 +76,16 @@
             <label>Steps<textarea name="instructions" rows="8" placeholder="One step per line. Use ## Sauce for headings."></textarea></label>
             <label>Notes<textarea name="notes" rows="4" placeholder="One note per line"></textarea></label>
             <div class="form-actions">
-              <button type="button" id="copyJsonButton">Copy JSON</button>
-              <button type="button" id="downloadJsonButton">Download JSON</button>
+              <button type="button" id="copyMarkdownButton">Copy Markdown</button>
+              <button type="button" id="downloadMarkdownButton">Download Markdown</button>
             </div>
           </form>
           <aside class="json-preview">
             <div class="preview-title">
-              <strong>Recipe JSON</strong>
-              <span id="builderFilename">recipe.json</span>
+              <strong>Recipe Markdown</strong>
+              <span id="builderFilename">recipe.md</span>
             </div>
-            <pre id="jsonPreview">{}</pre>
+            <pre id="markdownPreview">{}</pre>
           </aside>
         </div>
       </section>

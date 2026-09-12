@@ -43,7 +43,12 @@
       "text": "2tsp chili crisp"
     }
   ],
-  "instructions": [],
+  "instructions": [
+    {
+      "type": "step",
+      "text": "-"
+    }
+  ],
   "notes": [],
   "extra": ""
 }

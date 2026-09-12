@@ -51,7 +51,12 @@
       "text": "8 chopped garlic cloves"
     }
   ],
-  "instructions": [],
+  "instructions": [
+    {
+      "type": "step",
+      "text": "-"
+    }
+  ],
   "notes": [],
   "extra": ""
 }

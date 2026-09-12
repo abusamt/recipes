@@ -75,7 +75,12 @@
       "text": "2 tbs honey"
     }
   ],
-  "instructions": [],
+  "instructions": [
+    {
+      "type": "step",
+      "text": "-"
+    }
+  ],
   "notes": [],
   "extra": ""
 }

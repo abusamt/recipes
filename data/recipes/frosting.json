@@ -31,7 +31,12 @@
       "text": "45ml-95ml milk"
     }
   ],
-  "instructions": [],
+  "instructions": [
+    {
+      "type": "step",
+      "text": "-"
+    }
+  ],
   "notes": [],
   "extra": ""
 }

@@ -1,0 +1,44 @@
+---
+id: brioche
+title: Brioche
+servings: 
+image: images/brioche_xpvra.jpg
+source_url: 
+source_label: 
+categories: 
+---
+
+# Brioche
+
+## Ingredients
+- poolish (150g bread flour + 150g water + pinch yeast)
+- tangzhong (2 Tbs water, 4 Tbs milk, 2 Tbs bread flour)
+- 125ml milk
+- 20ml water
+- 10g bread machine yeast
+- 1 large egg
+- 1 egg yolk
+- 375g bread flour
+- 7g salt
+- 4g amylase
+- 60g sugar
+- 50g softened butter
+- 50g butter flavored shortening
+- melted butter
+- triple-seed-topping (hemp hearts, wheat germ, black seeds)
+- flakey salt
+
+## Steps
+1. Combine water and milk in a small bowl, whisk in yeast to dissolve, place in a stand mixer bowl along with the whole egg and egg yolk; and the tangzhong and ripened poolish; mix on low speed, until combined.
+2. In a separate bowl, mix flour, sugar, salt, and amylase.
+   While mixing (by hand or stand mixer), add in your flour mixture, 1⁄4 cup at a time, until all of your flour has been added.
+3. Once it begins to form a rough dough, allow to knead for 2 minutes or until it begins to turn smooth.
+   Then add your butter, allow to mix until fully incorporated, and knead for 5-10 more minutes or till your dough is very smooth and begins to pull from the sides of the bowl.
+4. Cover with plastic wrap and rise for 45 minutes at room temperature. Then place in the fridge for 1.5 hours and up to overnight.
+5. Separated into 94g portions, let rise for an hour at room temperature.
+   Spray with Pam, brush with egg wash + top with black seed.
+   Then bake @ 375F (maybe start at 380-385F at first) until golden brown.
+   Immediately top with melted butter and flakey salt.
+
+## Extra
+I made this.

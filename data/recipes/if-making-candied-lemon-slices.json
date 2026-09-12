@@ -15,7 +15,12 @@
       "text": "boil lemon slices a few times to remove bitter first"
     }
   ],
-  "instructions": [],
+  "instructions": [
+    {
+      "type": "step",
+      "text": "-"
+    }
+  ],
   "notes": [],
   "extra": ""
 }

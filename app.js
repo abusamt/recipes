@@ -1,3 +1,7 @@
+const REPOSITORY = "abusamt/recipes";
+const BRANCH = "main";
+const GITHUB_EDIT_BASE = `https://github.com/${REPOSITORY}/edit/${BRANCH}/`;
+
 const state = {
   recipes: [],
   filtered: [],
@@ -17,12 +21,13 @@ const nodes = {
   gridButton: document.querySelector("#gridButton"),
   listButton: document.querySelector("#listButton"),
   recipeDetail: document.querySelector("#recipeDetail"),
+  editButton: document.querySelector("#editButton"),
   printButton: document.querySelector("#printButton"),
   form: document.querySelector("#recipeForm"),
-  jsonPreview: document.querySelector("#jsonPreview"),
+  markdownPreview: document.querySelector("#markdownPreview"),
   builderFilename: document.querySelector("#builderFilename"),
-  copyJsonButton: document.querySelector("#copyJsonButton"),
-  downloadJsonButton: document.querySelector("#downloadJsonButton"),
+  copyMarkdownButton: document.querySelector("#copyMarkdownButton"),
+  downloadMarkdownButton: document.querySelector("#downloadMarkdownButton"),
 };
 
 function imagePath(path) {
@@ -45,6 +50,10 @@ function slugify(value) {
     .trim()
     .toLowerCase()
     .replace(/[-\s]+/g, "-") || "recipe";
+}
+
+function encodePath(path) {
+  return path.split("/").map(encodeURIComponent).join("/");
 }
 
 async function loadIndex() {
@@ -109,6 +118,7 @@ async function showRecipe(id) {
 
   const response = await fetch(`data/recipes/${encodeURIComponent(id)}.json`, { cache: "no-cache" });
   if (!response.ok) {
+    nodes.editButton.hidden = true;
     nodes.recipeDetail.innerHTML = "<p>Recipe not found.</p>";
     return;
   }
@@ -116,6 +126,9 @@ async function showRecipe(id) {
 }
 
 function renderDetail(recipe) {
+  const markdownPath = recipe.editPath || `data/recipes-md/${recipe.id}.md`;
+  nodes.editButton.href = `${GITHUB_EDIT_BASE}${encodePath(markdownPath)}`;
+  nodes.editButton.hidden = false;
   const image = imagePath(recipe.image);
   const imageMarkup = image
     ? `<img src="${escapeHtml(image)}" alt="">`
@@ -224,10 +237,54 @@ function builderRecipe() {
 
 function updateBuilder() {
   const recipe = builderRecipe();
-  const filename = `${recipe.id}.json`;
+  const filename = `${recipe.id}.md`;
+  const markdown = recipeToMarkdown(recipe);
   nodes.builderFilename.textContent = filename;
-  nodes.jsonPreview.textContent = JSON.stringify(recipe, null, 2);
-  return { recipe, filename };
+  nodes.markdownPreview.textContent = markdown;
+  return { recipe, filename, markdown };
+}
+
+function recipeToMarkdown(recipe) {
+  const source = recipe.source || {};
+  const metadata = [
+    ["id", recipe.id],
+    ["title", recipe.title],
+    ["servings", recipe.servings],
+    ["image", recipe.image],
+    ["source_url", source.url],
+    ["source_label", source.label],
+    ["categories", (recipe.categories || []).join(", ")],
+  ];
+  const lines = ["---", ...metadata.map(([key, value]) => `${key}: ${repairText(value)}`), "---", "", `# ${repairText(recipe.title)}`];
+  if (repairText(recipe.description)) lines.push("", repairText(recipe.description));
+  lines.push("", "## Ingredients", ...itemsToMarkdown(recipe.ingredients, false), "", "## Steps", ...itemsToMarkdown(recipe.instructions, true));
+  const notes = (recipe.notes || []).map(repairText).filter(Boolean);
+  if (notes.length) lines.push("", "## Notes", ...notes.map((note) => `- ${note}`));
+  if (repairText(recipe.extra)) lines.push("", "## Extra", repairText(recipe.extra));
+  return `${lines.join("\n").trimEnd()}\n`;
+}
+
+function itemsToMarkdown(items = [], ordered) {
+  const lines = [];
+  let number = 1;
+  for (const item of items) {
+    const text = repairText(item.text);
+    if (!text) continue;
+    if (item.type === "heading") {
+      lines.push(`### ${text}`);
+      continue;
+    }
+    const marker = ordered ? `${number}.` : "-";
+    const parts = text.split(/\r?\n/);
+    lines.push(`${marker} ${parts[0]}`);
+    lines.push(...parts.slice(1).map((line) => `   ${line}`));
+    if (ordered) number += 1;
+  }
+  return lines.length ? lines : ["- "];
+}
+
+function repairText(value) {
+  return String(value || "").normalize("NFKC").trim();
 }
 
 nodes.searchInput.addEventListener("input", (event) => {
@@ -255,16 +312,16 @@ nodes.listButton.addEventListener("click", () => {
 nodes.printButton.addEventListener("click", () => window.print());
 nodes.form.addEventListener("input", updateBuilder);
 
-nodes.copyJsonButton.addEventListener("click", async () => {
-  const { recipe } = updateBuilder();
-  await navigator.clipboard.writeText(JSON.stringify(recipe, null, 2));
-  nodes.copyJsonButton.textContent = "Copied";
-  setTimeout(() => nodes.copyJsonButton.textContent = "Copy JSON", 1200);
+nodes.copyMarkdownButton.addEventListener("click", async () => {
+  const { markdown } = updateBuilder();
+  await navigator.clipboard.writeText(markdown);
+  nodes.copyMarkdownButton.textContent = "Copied";
+  setTimeout(() => nodes.copyMarkdownButton.textContent = "Copy Markdown", 1200);
 });
 
-nodes.downloadJsonButton.addEventListener("click", () => {
-  const { recipe, filename } = updateBuilder();
-  const blob = new Blob([JSON.stringify(recipe, null, 2) + "\n"], { type: "application/json" });
+nodes.downloadMarkdownButton.addEventListener("click", () => {
+  const { filename, markdown } = updateBuilder();
+  const blob = new Blob([markdown], { type: "text/markdown" });
   const url = URL.createObjectURL(blob);
   const link = document.createElement("a");
   link.href = url;

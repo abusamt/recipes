@@ -91,7 +91,12 @@
       "text": "1/2 teaspoon parsley"
     }
   ],
-  "instructions": [],
+  "instructions": [
+    {
+      "type": "step",
+      "text": "-"
+    }
+  ],
   "notes": [],
   "extra": ""
 }

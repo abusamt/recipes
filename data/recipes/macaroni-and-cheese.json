@@ -55,7 +55,12 @@
       "text": "* * save extra cheese sauce and freeze **"
     }
   ],
-  "instructions": [],
+  "instructions": [
+    {
+      "type": "step",
+      "text": "-"
+    }
+  ],
   "notes": [],
   "extra": ""
 }

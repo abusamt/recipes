@@ -43,7 +43,12 @@
       "text": "2 tablespoons harissa 1"
     }
   ],
-  "instructions": [],
+  "instructions": [
+    {
+      "type": "step",
+      "text": "-"
+    }
+  ],
   "notes": [
     "good amount for: 1lb meat + 8 extra large eggs + 30oz tomatoes + bread. or use necessary amount for other meats and vegetables",
     "ras al hanuwt: www.amazon.com/dp/B07YVJQMNV/",

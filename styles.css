@@ -280,7 +280,13 @@ textarea {
   margin-bottom: 12px;
 }
 
+.detail-action-group {
+  display: flex;
+  gap: 10px;
+}
+
 .back-link,
+.detail-action-group a,
 .detail-actions button,
 .form-actions button {
   background: var(--surface);
@@ -385,6 +391,12 @@ textarea {
 }
 
 .form-actions button:first-child {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.detail-action-group a:first-child {
   background: var(--accent);
   border-color: var(--accent);
   color: #fff;

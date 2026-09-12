@@ -31,7 +31,12 @@
       "text": "1/2 GARLIC CLOVE (sliced)"
     }
   ],
-  "instructions": [],
+  "instructions": [
+    {
+      "type": "step",
+      "text": "-"
+    }
+  ],
   "notes": [],
   "extra": ""
 }

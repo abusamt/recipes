@@ -51,7 +51,12 @@
       "text": "1 tablespoon cayenne for latin dishes"
     }
   ],
-  "instructions": [],
+  "instructions": [
+    {
+      "type": "step",
+      "text": "-"
+    }
+  ],
   "notes": [],
   "extra": ""
 }

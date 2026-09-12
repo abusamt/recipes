@@ -1,0 +1,19 @@
+---
+id: fishy-rice-spice
+title: Fishy Rice Spice
+servings: 
+image: 
+source_url: 
+source_label: 
+categories: 
+---
+
+# Fishy Rice Spice
+
+also served it with seasoned rice, lemon + herb.1 cup rice1.5 cup of water1 tbsp of:dried parsleyonion powdercilantrolemon juice1tsp of:dried thymedried rosemaryvegetable bouillonminced garlic (approximately one clove)other:1/2 tsp of white pepper2 tsp of coriander2 tbsp of cultured, unsalted butter
+
+## Ingredients
+- -
+
+## Steps
+1. -
