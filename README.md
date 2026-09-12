@@ -20,6 +20,7 @@ Generated files:
 
 - `data/recipes-index.json` powers search, cards, and sorting.
 - `data/recipes.jsonl` stores the full collection as newline-delimited JSON.
+- `data/recipes.js` embeds the catalog for browsers that block runtime JSON requests.
 
 Run this after adding or editing recipe Markdown:
 
@@ -33,7 +34,7 @@ GitHub Actions also runs that build automatically on pushes to `main`.
 
 Open any recipe and click `Edit`. GitHub opens the canonical Markdown file in its authenticated editor. The site never receives or stores a GitHub token.
 
-For a new recipe, open `Create Recipe`, then copy or download the generated Markdown into `data/recipes-md/<stable-id>.md`. The formatter uses the same shape as the build parser, so Markdown -> JSON -> Markdown is stable and repeatable.
+For a new recipe, open `Create Recipe`, fill out the form, copy the Markdown, then use `Open GitHub New File` to create `data/recipes-md/<stable-id>.md` while signed into GitHub. The formatter uses the same shape as the build parser, so Markdown -> JSON -> Markdown is stable and repeatable.
 
 ## Reimporting CopyMeThat
 

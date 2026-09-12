@@ -10,6 +10,7 @@ RECIPES_DIR = ROOT / "data" / "recipes"
 MARKDOWN_DIR = ROOT / "data" / "recipes-md"
 INDEX_PATH = ROOT / "data" / "recipes-index.json"
 JSONL_PATH = ROOT / "data" / "recipes.jsonl"
+JS_PATH = ROOT / "data" / "recipes.js"
 
 
 def flatten(entries: list[dict[str, str]]) -> str:
@@ -56,7 +57,10 @@ def main() -> None:
     INDEX_PATH.parent.mkdir(parents=True, exist_ok=True)
     INDEX_PATH.write_text(json.dumps(index, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     JSONL_PATH.write_text("".join(json.dumps(recipe, ensure_ascii=False) + "\n" for recipe in recipes), encoding="utf-8")
-    print(f"Built {INDEX_PATH.relative_to(ROOT)} and {JSONL_PATH.relative_to(ROOT)} for {len(recipes)} recipes.")
+    index_js = json.dumps(index, ensure_ascii=False, separators=(",", ":")).translate(str.maketrans({"<": "\\u003c", ">": "\\u003e", "&": "\\u0026"}))
+    recipes_js = json.dumps(recipes, ensure_ascii=False, separators=(",", ":")).translate(str.maketrans({"<": "\\u003c", ">": "\\u003e", "&": "\\u0026"}))
+    JS_PATH.write_text(f"window.RECIPE_INDEX = {index_js};\nwindow.RECIPE_DATA = {recipes_js};\n", encoding="utf-8")
+    print(f"Built {INDEX_PATH.relative_to(ROOT)}, {JSONL_PATH.relative_to(ROOT)}, and {JS_PATH.relative_to(ROOT)} for {len(recipes)} recipes.")
 
 
 def load_recipes() -> list[dict]:

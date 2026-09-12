@@ -34,8 +34,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if ! git diff --quiet -- data/recipes data/recipes-index.json data/recipes.jsonl; then
-            git add data/recipes data/recipes-index.json data/recipes.jsonl
+          if ! git diff --quiet -- data/recipes data/recipes-index.json data/recipes.jsonl data/recipes.js; then
+            git add data/recipes data/recipes-index.json data/recipes.jsonl data/recipes.js
             git commit -m "Rebuild recipe data [skip ci]"
             git push
           fi

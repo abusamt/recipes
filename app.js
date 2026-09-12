@@ -4,6 +4,7 @@ const GITHUB_EDIT_BASE = `https://github.com/${REPOSITORY}/edit/${BRANCH}/`;
 
 const state = {
   recipes: [],
+  recipeData: new Map(),
   filtered: [],
   view: localStorage.getItem("recipeView") || "grid",
   query: "",
@@ -27,6 +28,7 @@ const nodes = {
   markdownPreview: document.querySelector("#markdownPreview"),
   builderFilename: document.querySelector("#builderFilename"),
   copyMarkdownButton: document.querySelector("#copyMarkdownButton"),
+  openGitHubButton: document.querySelector("#openGitHubButton"),
   downloadMarkdownButton: document.querySelector("#downloadMarkdownButton"),
 };
 
@@ -56,11 +58,23 @@ function encodePath(path) {
   return path.split("/").map(encodeURIComponent).join("/");
 }
 
+function sourceHost(url) {
+  try {
+    return new URL(url).hostname.replace(/^www\./, "");
+  } catch {
+    return "";
+  }
+}
+
 async function loadIndex() {
-  const response = await fetch("data/recipes-index.json", { cache: "no-cache" });
-  if (!response.ok) throw new Error("Could not load recipe index");
-  const data = await response.json();
+  let data = window.RECIPE_INDEX;
+  if (!data) {
+    const response = await fetch("data/recipes-index.json", { cache: "no-cache" });
+    if (!response.ok) throw new Error("Could not load recipe index");
+    data = await response.json();
+  }
   state.recipes = data.recipes || [];
+  state.recipeData = new Map((window.RECIPE_DATA || []).map((recipe) => [recipe.id, recipe]));
   applyFilters();
 }
 
@@ -91,7 +105,7 @@ function renderCards() {
     const imageMarkup = image
       ? `<img src="${escapeHtml(image)}" alt="">`
       : `<span class="placeholder-pot" aria-hidden="true"></span>`;
-    const sourceHost = recipe.source?.url ? new URL(recipe.source.url).hostname.replace(/^www\./, "") : "";
+    const host = recipe.source?.url ? sourceHost(recipe.source.url) : "";
     return `
       <a class="recipe-card" href="#/recipe/${encodeURIComponent(recipe.id)}">
         <span class="card-image">${imageMarkup}</span>
@@ -102,7 +116,7 @@ function renderCards() {
             <span class="pill">${recipe.ingredientCount} ingredients</span>
             <span class="pill">${recipe.stepCount} steps</span>
           </span>
-          <span class="card-source">${escapeHtml(sourceHost)}</span>
+          <span class="card-source">${escapeHtml(host)}</span>
         </span>
       </a>
     `;
@@ -116,13 +130,18 @@ async function showRecipe(id) {
   nodes.detailView.hidden = false;
   nodes.recipeDetail.innerHTML = "";
 
-  const response = await fetch(`data/recipes/${encodeURIComponent(id)}.json`, { cache: "no-cache" });
-  if (!response.ok) {
-    nodes.editButton.hidden = true;
-    nodes.recipeDetail.innerHTML = "<p>Recipe not found.</p>";
+  const embeddedRecipe = state.recipeData.get(id);
+  if (embeddedRecipe) {
+    renderDetail(embeddedRecipe);
     return;
   }
-  renderDetail(await response.json());
+  const response = await fetch(`data/recipes/${encodeURIComponent(id)}.json`, { cache: "no-cache" });
+  if (response.ok) {
+    renderDetail(await response.json());
+  } else {
+    nodes.editButton.hidden = true;
+    nodes.recipeDetail.innerHTML = "<p>Recipe not found.</p>";
+  }
 }
 
 function renderDetail(recipe) {
@@ -241,6 +260,7 @@ function updateBuilder() {
   const markdown = recipeToMarkdown(recipe);
   nodes.builderFilename.textContent = filename;
   nodes.markdownPreview.textContent = markdown;
+  nodes.openGitHubButton.href = `https://github.com/${REPOSITORY}/new/${BRANCH}?filename=${encodeURIComponent(`data/recipes-md/${filename}`)}`;
   return { recipe, filename, markdown };
 }
 
@@ -335,5 +355,6 @@ window.addEventListener("hashchange", route);
 loadIndex()
   .then(route)
   .catch((error) => {
+    nodes.resultCount.textContent = "Catalog unavailable";
     nodes.recipeGrid.innerHTML = `<p>${escapeHtml(error.message)}</p>`;
   });

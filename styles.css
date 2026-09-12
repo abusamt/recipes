@@ -288,7 +288,8 @@ textarea {
 .back-link,
 .detail-action-group a,
 .detail-actions button,
-.form-actions button {
+.form-actions button,
+.form-actions a {
   background: var(--surface);
   border: 1px solid var(--line);
   color: var(--ink);
@@ -394,6 +395,11 @@ textarea {
   background: var(--accent);
   border-color: var(--accent);
   color: #fff;
+}
+
+.form-actions a {
+  align-items: center;
+  display: inline-flex;
 }
 
 .detail-action-group a:first-child {
